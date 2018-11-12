@@ -8,19 +8,9 @@
     });
 
 
-    function getData()
-    {
-      return [4,9];
-
-
-    }
-
-
     //  -------   Begin function rollDie()   ------------
     function rollDie()
     {
-        alert(getData()[1]);
-
         // generate the random number between 1 and 6
         var rollValue = Math.floor((Math.random() * 6) + 1);
 
